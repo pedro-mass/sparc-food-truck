@@ -14,7 +14,12 @@
     	</div>
 
       <div class="row">
-        <div class="col-md-6" id="foodTruckIcon">
+        <div class="col-md-6" id="foodTruckIcon" ng-class="
+          {
+            'text-danger': truck.status == 'CANCELLED',
+            'text-success': truck.status == 'HERE'
+          }
+        ">
           <i class="glyphicon glyphicon-cutlery"></i>
         </div>
         <div class="col-md-6">
