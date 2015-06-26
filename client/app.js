@@ -22,6 +22,13 @@ app.controller('foodTruckController', [
           $scope.truck = data;
         });
     };
+
+    $scope.resetTruck = function() {
+      FoodTruckService.resetTruck()
+        .success(function(data) {
+          $scope.truck = data;
+        });
+    };
   }
 ]);
 
@@ -37,6 +44,9 @@ app.factory('FoodTruckService', [
       },
       alertTruck: function() {
         return $http.get('/api/alertTruck');
+      },
+      resetTruck: function() {
+        return $http.get('/api/resetTruck');
       }
     }
   }

@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb://localhost/learn');
+mongoose.connect('mongodb://localhost/learn');
 
 app.use(express.static(__dirname + '/client'));
 

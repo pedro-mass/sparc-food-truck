@@ -23,11 +23,14 @@
           <i class="glyphicon glyphicon-cutlery"></i>
         </div>
         <div class="col-md-6">
-          <p>Name: {{truck.name}} </p>
-          <p>Status: {{truck.status}}</p>
+          <div class="row">
+            <p>Name: {{truck.name}} </p>
+            <p>Status: {{truck.status}}</p>
 
-          <button class="btn btn-success" ng-click="alertTruck()">Truck is Here</button>
-          <button class="btn btn-danger" ng-click="cancelTruck()">Truck Cancelled</button>
+            <button class="btn btn-success" ng-click="alertTruck()">Truck is Here</button>
+            <button class="btn btn-danger" ng-click="cancelTruck()">Truck Cancelled</button>
+            <button class="btn btn-primary" ng-click="resetTruck()">Reset Truck</button>
+          </div>
         </div>
       </div>
 
