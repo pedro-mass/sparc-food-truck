@@ -29,17 +29,19 @@ module.exports = function(app) {
 
 
   // special one off routes -------------------------
-  app.get('/api/cancelTruck', function(req, res) {
+  app.put('/api/cancelTruck', function(req, res) {
     foodTruckController.updateStatus(req, res, 'CANCELLED');
   });
 
-  app.get('/api/alertTruck', function(req, res) {
+  app.put('/api/alertTruck', function(req, res) {
     foodTruckController.updateStatus(req, res, 'HERE');
   });
 
-  app.get('/api/resetTruck', function(req, res) {
+  app.put('/api/resetTruck', function(req, res) {
     foodTruckController.updateStatus(req, res, 'NOT_HERE');
   });
+  
+  
 
   // catch all
   app.get('/*', function(req, res) {

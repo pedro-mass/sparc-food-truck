@@ -40,13 +40,13 @@ app.factory('FoodTruckService', [
         return $http.get('/api/foodTruck');
       },
       cancelTruck: function() {
-        return $http.get('/api/cancelTruck');
+        return $http.put('/api/cancelTruck');
       },
       alertTruck: function() {
-        return $http.get('/api/alertTruck');
+        return $http.put('/api/alertTruck');
       },
       resetTruck: function() {
-        return $http.get('/api/resetTruck');
+        return $http.put('/api/resetTruck');
       }
     }
   }
