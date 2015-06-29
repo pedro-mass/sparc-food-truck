@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2B765E1B41778200242FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B765D1B41778200242FFE /* AppDelegate.swift */; };
+		3B2B76601B41778200242FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B765F1B41778200242FFE /* ViewController.swift */; };
+		3B2B76631B41778200242FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B76611B41778200242FFE /* Main.storyboard */; };
+		3B2B76651B41778200242FFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B76641B41778200242FFE /* Images.xcassets */; };
+		3B2B76681B41778200242FFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B76661B41778200242FFE /* LaunchScreen.xib */; };
+		3B2B76741B41778200242FFE /* FoodTruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B76731B41778200242FFE /* FoodTruckTests.swift */; };
+		3B2B76871B4177DB00242FFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B76861B4177DB00242FFE /* InterfaceController.swift */; };
+		3B2B76891B4177DB00242FFE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B76881B4177DB00242FFE /* NotificationController.swift */; };
+		3B2B768B1B4177DB00242FFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B768A1B4177DB00242FFE /* Images.xcassets */; };
+		3B2B768F1B4177DB00242FFE /* FoodTruck WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B768E1B4177DB00242FFE /* FoodTruck WatchKit App.app */; };
+		3B2B76971B4177DB00242FFE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B76951B4177DB00242FFE /* Interface.storyboard */; };
+		3B2B76991B4177DB00242FFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B76981B4177DB00242FFE /* Images.xcassets */; };
+		3B2B769C1B4177DB00242FFE /* FoodTruck WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B2B76811B4177DB00242FFE /* FoodTruck WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2B766E1B41778200242FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2B76501B41778200242FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2B76571B41778200242FFE;
+			remoteInfo = FoodTruck;
+		};
+		3B2B76901B4177DB00242FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2B76501B41778200242FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2B768D1B4177DB00242FFE;
+			remoteInfo = "FoodTruck WatchKit App";
+		};
+		3B2B769A1B4177DB00242FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2B76501B41778200242FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2B76801B4177DB00242FFE;
+			remoteInfo = "FoodTruck WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B2B76A31B4177DB00242FFE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B2B769C1B4177DB00242FFE /* FoodTruck WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B2B76581B41778200242FFE /* FoodTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B765C1B41778200242FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B765D1B41778200242FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2B765F1B41778200242FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2B76621B41778200242FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2B76641B41778200242FFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B2B76671B41778200242FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B2B766D1B41778200242FFE /* FoodTruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTruckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B76721B41778200242FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B76731B41778200242FFE /* FoodTruckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckTests.swift; sourceTree = "<group>"; };
+		3B2B76811B4177DB00242FFE /* FoodTruck WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FoodTruck WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B76841B4177DB00242FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B76851B4177DB00242FFE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3B2B76861B4177DB00242FFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3B2B76881B4177DB00242FFE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3B2B768A1B4177DB00242FFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B2B768E1B4177DB00242FFE /* FoodTruck WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodTruck WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B76941B4177DB00242FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B76961B4177DB00242FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B2B76981B4177DB00242FFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2B76551B41778200242FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B766A1B41778200242FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B767E1B4177DB00242FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2B764F1B41778200242FFE = {
+			isa = PBXGroup;
+			children = (
+				3B2B765A1B41778200242FFE /* FoodTruck */,
+				3B2B76701B41778200242FFE /* FoodTruckTests */,
+				3B2B76821B4177DB00242FFE /* FoodTruck WatchKit Extension */,
+				3B2B76921B4177DB00242FFE /* FoodTruck WatchKit App */,
+				3B2B76591B41778200242FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2B76591B41778200242FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76581B41778200242FFE /* FoodTruck.app */,
+				3B2B766D1B41778200242FFE /* FoodTruckTests.xctest */,
+				3B2B76811B4177DB00242FFE /* FoodTruck WatchKit Extension.appex */,
+				3B2B768E1B4177DB00242FFE /* FoodTruck WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2B765A1B41778200242FFE /* FoodTruck */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B765D1B41778200242FFE /* AppDelegate.swift */,
+				3B2B765F1B41778200242FFE /* ViewController.swift */,
+				3B2B76611B41778200242FFE /* Main.storyboard */,
+				3B2B76641B41778200242FFE /* Images.xcassets */,
+				3B2B76661B41778200242FFE /* LaunchScreen.xib */,
+				3B2B765B1B41778200242FFE /* Supporting Files */,
+			);
+			path = FoodTruck;
+			sourceTree = "<group>";
+		};
+		3B2B765B1B41778200242FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B765C1B41778200242FFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2B76701B41778200242FFE /* FoodTruckTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76731B41778200242FFE /* FoodTruckTests.swift */,
+				3B2B76711B41778200242FFE /* Supporting Files */,
+			);
+			path = FoodTruckTests;
+			sourceTree = "<group>";
+		};
+		3B2B76711B41778200242FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76721B41778200242FFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2B76821B4177DB00242FFE /* FoodTruck WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76861B4177DB00242FFE /* InterfaceController.swift */,
+				3B2B76881B4177DB00242FFE /* NotificationController.swift */,
+				3B2B768A1B4177DB00242FFE /* Images.xcassets */,
+				3B2B76831B4177DB00242FFE /* Supporting Files */,
+			);
+			path = "FoodTruck WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3B2B76831B4177DB00242FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76841B4177DB00242FFE /* Info.plist */,
+				3B2B76851B4177DB00242FFE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2B76921B4177DB00242FFE /* FoodTruck WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76951B4177DB00242FFE /* Interface.storyboard */,
+				3B2B76981B4177DB00242FFE /* Images.xcassets */,
+				3B2B76931B4177DB00242FFE /* Supporting Files */,
+			);
+			path = "FoodTruck WatchKit App";
+			sourceTree = "<group>";
+		};
+		3B2B76931B4177DB00242FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B76941B4177DB00242FFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2B76571B41778200242FFE /* FoodTruck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B76771B41778200242FFE /* Build configuration list for PBXNativeTarget "FoodTruck" */;
+			buildPhases = (
+				3B2B76541B41778200242FFE /* Sources */,
+				3B2B76551B41778200242FFE /* Frameworks */,
+				3B2B76561B41778200242FFE /* Resources */,
+				3B2B76A31B4177DB00242FFE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2B769B1B4177DB00242FFE /* PBXTargetDependency */,
+			);
+			name = FoodTruck;
+			productName = FoodTruck;
+			productReference = 3B2B76581B41778200242FFE /* FoodTruck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B2B766C1B41778200242FFE /* FoodTruckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B767A1B41778200242FFE /* Build configuration list for PBXNativeTarget "FoodTruckTests" */;
+			buildPhases = (
+				3B2B76691B41778200242FFE /* Sources */,
+				3B2B766A1B41778200242FFE /* Frameworks */,
+				3B2B766B1B41778200242FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2B766F1B41778200242FFE /* PBXTargetDependency */,
+			);
+			name = FoodTruckTests;
+			productName = FoodTruckTests;
+			productReference = 3B2B766D1B41778200242FFE /* FoodTruckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B2B76801B4177DB00242FFE /* FoodTruck WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B76A01B4177DB00242FFE /* Build configuration list for PBXNativeTarget "FoodTruck WatchKit Extension" */;
+			buildPhases = (
+				3B2B767D1B4177DB00242FFE /* Sources */,
+				3B2B767E1B4177DB00242FFE /* Frameworks */,
+				3B2B767F1B4177DB00242FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2B76911B4177DB00242FFE /* PBXTargetDependency */,
+			);
+			name = "FoodTruck WatchKit Extension";
+			productName = "FoodTruck WatchKit Extension";
+			productReference = 3B2B76811B4177DB00242FFE /* FoodTruck WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3B2B768D1B4177DB00242FFE /* FoodTruck WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B769D1B4177DB00242FFE /* Build configuration list for PBXNativeTarget "FoodTruck WatchKit App" */;
+			buildPhases = (
+				3B2B768C1B4177DB00242FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodTruck WatchKit App";
+			productName = "FoodTruck WatchKit App";
+			productReference = 3B2B768E1B4177DB00242FFE /* FoodTruck WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2B76501B41778200242FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Reece Long";
+				TargetAttributes = {
+					3B2B76571B41778200242FFE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3B2B766C1B41778200242FFE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3B2B76571B41778200242FFE;
+					};
+					3B2B76801B4177DB00242FFE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3B2B768D1B4177DB00242FFE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 3B2B76531B41778200242FFE /* Build configuration list for PBXProject "FoodTruck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2B764F1B41778200242FFE;
+			productRefGroup = 3B2B76591B41778200242FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2B76571B41778200242FFE /* FoodTruck */,
+				3B2B766C1B41778200242FFE /* FoodTruckTests */,
+				3B2B76801B4177DB00242FFE /* FoodTruck WatchKit Extension */,
+				3B2B768D1B4177DB00242FFE /* FoodTruck WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2B76561B41778200242FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B76631B41778200242FFE /* Main.storyboard in Resources */,
+				3B2B76681B41778200242FFE /* LaunchScreen.xib in Resources */,
+				3B2B76651B41778200242FFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B766B1B41778200242FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B767F1B4177DB00242FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B768F1B4177DB00242FFE /* FoodTruck WatchKit App.app in Resources */,
+				3B2B768B1B4177DB00242FFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B768C1B4177DB00242FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B76971B4177DB00242FFE /* Interface.storyboard in Resources */,
+				3B2B76991B4177DB00242FFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2B76541B41778200242FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B76601B41778200242FFE /* ViewController.swift in Sources */,
+				3B2B765E1B41778200242FFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B76691B41778200242FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B76741B41778200242FFE /* FoodTruckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B767D1B4177DB00242FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B76891B4177DB00242FFE /* NotificationController.swift in Sources */,
+				3B2B76871B4177DB00242FFE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2B766F1B41778200242FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2B76571B41778200242FFE /* FoodTruck */;
+			targetProxy = 3B2B766E1B41778200242FFE /* PBXContainerItemProxy */;
+		};
+		3B2B76911B4177DB00242FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2B768D1B4177DB00242FFE /* FoodTruck WatchKit App */;
+			targetProxy = 3B2B76901B4177DB00242FFE /* PBXContainerItemProxy */;
+		};
+		3B2B769B1B4177DB00242FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2B76801B4177DB00242FFE /* FoodTruck WatchKit Extension */;
+			targetProxy = 3B2B769A1B4177DB00242FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B2B76611B41778200242FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2B76621B41778200242FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2B76661B41778200242FFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2B76671B41778200242FFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3B2B76951B4177DB00242FFE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2B76961B4177DB00242FFE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2B76751B41778200242FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2B76761B41778200242FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2B76781B41778200242FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodTruck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B2B76791B41778200242FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodTruck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B2B767B1B41778200242FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodTruckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTruck.app/FoodTruck";
+			};
+			name = Debug;
+		};
+		3B2B767C1B41778200242FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodTruckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTruck.app/FoodTruck";
+			};
+			name = Release;
+		};
+		3B2B769E1B4177DB00242FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FoodTruck_WatchKit_Extension;
+				INFOPLIST_FILE = "FoodTruck WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3B2B769F1B4177DB00242FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FoodTruck_WatchKit_Extension;
+				INFOPLIST_FILE = "FoodTruck WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3B2B76A11B4177DB00242FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoodTruck WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B2B76A21B4177DB00242FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FoodTruck WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2B76531B41778200242FFE /* Build configuration list for PBXProject "FoodTruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B76751B41778200242FFE /* Debug */,
+				3B2B76761B41778200242FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B76771B41778200242FFE /* Build configuration list for PBXNativeTarget "FoodTruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B76781B41778200242FFE /* Debug */,
+				3B2B76791B41778200242FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B767A1B41778200242FFE /* Build configuration list for PBXNativeTarget "FoodTruckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B767B1B41778200242FFE /* Debug */,
+				3B2B767C1B41778200242FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B769D1B4177DB00242FFE /* Build configuration list for PBXNativeTarget "FoodTruck WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B769E1B4177DB00242FFE /* Debug */,
+				3B2B769F1B4177DB00242FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B76A01B4177DB00242FFE /* Build configuration list for PBXNativeTarget "FoodTruck WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B76A11B4177DB00242FFE /* Debug */,
+				3B2B76A21B4177DB00242FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2B76501B41778200242FFE /* Project object */;
+}
