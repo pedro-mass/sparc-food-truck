@@ -2,7 +2,11 @@ var express = require('express');
 var app = express();
 
 var mongoose = require('mongoose');
+
+var dbURI = process.env.MONGOLAB_URI || 'mongodb://localhost/learn';
+console.log('dbURI: ' + dbURI);
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/learn');
+console.log('Connected to db');
 
 app.use(express.static(__dirname + '/client'));
 
