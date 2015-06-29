@@ -4,9 +4,10 @@ var app = express();
 var mongoose = require('mongoose');
 
 var dbURI = process.env.MONGOLAB_URI || 'mongodb://localhost/learn';
-console.log('dbURI: ' + dbURI);
+var port = process.env.PORT || 3000;
+
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/learn');
-console.log('Connected to db');
+
 
 app.use(express.static(__dirname + '/client'));
 
@@ -27,5 +28,5 @@ app.use(methodOverride());
 require('./server/routes.js')(app);
 
 // startup
-app.listen(3000);
-console.log('App listening on port ' + 3000);
+app.listen(port);
+console.log('App listening on port ' + port);
